@@ -11,3 +11,14 @@ department                                         category                     
 IT                                                 Hardware                                                  3500
 Sales                                              Travel                                                    2300
 ```
+
+
+Project 3: VIP Customer Analysis
+```
+Output:
+
+name                                               country                                            total_spent
+-------------------------------------------------- -------------------------------------------------- -----------
+David Brown                                        UK                                                        3100
+John Smith                                         USA                                                       3700
+```
