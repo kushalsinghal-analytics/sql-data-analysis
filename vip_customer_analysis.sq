@@ -1,0 +1,8 @@
+SELECT 
+    c.name,
+    c.country,
+    SUM(o.amount) AS total_spent
+FROM Customers c
+JOIN Orders o ON c.customer_id = o.customer_id
+GROUP BY c.name, c.country
+HAVING SUM(o.amount) > 3000;
