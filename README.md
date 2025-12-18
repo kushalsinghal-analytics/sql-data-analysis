@@ -22,3 +22,19 @@ name                                               country                      
 David Brown                                        UK                                                        3100
 John Smith                                         USA                                                       3700
 ```
+
+
+## Project 4: Customer Order Status Report
+This query uses a `CASE` statement to categorize customer orders as 'Processing', 'Shipped Late', or 'Shipped On Time'.
+```
+Output:
+
+customer_name                                                                                        order_id    product_name                                                                                         order_status   
+---------------------------------------------------------------------------------------------------- ----------- ---------------------------------------------------------------------------------------------------- ---------------
+Alice Johnson                                                                                                101 Laptop                                                                                               Shipped On Time
+Alice Johnson                                                                                                102 Mouse                                                                                                Shipped Late   
+Bob Williams                                                                                                 103 Keyboard                                                                                             Processing     
+```
+
+
+ 
