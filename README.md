@@ -46,3 +46,14 @@ vendor_name                                                                     
 ---------------------------------------------------------------------------------------------------- ------------------------ ----------------------------------------
 TechSolutions                                                                                                               4                                 65000.00
  
+```
+ ## Project 6: Product Profitability Analysis
+Description: "Calculated Net Profit (Revenue - Cost) per product to identify high-margin items. Used JOINs to link cost data with sales data and HAVING to filter for total profit > $20k."
+
+Output:
+
+product_name                                       total_units_sold total_net_profit
+-------------------------------------------------- ---------------- ----------------
+4K Monitor                                                      110            22000
+Gaming Laptop                                                    90            27000
+```
