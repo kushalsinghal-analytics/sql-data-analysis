@@ -36,5 +36,13 @@ Alice Johnson                                                                   
 Bob Williams                                                                                                 103 Keyboard                                                                                             Processing     
 ```
 
+## Project 5: Vendor Payment Risk Audit
 
+I analyzed the accounts payable data to identify "High Risk" vendors. The goal was to find vendors with high transaction volume (>3 invoices) AND high financial exposure (>$50k total).
+
+Output:
+
+vendor_name                                                                                          total_invoices_processed total_money_paid                        
+---------------------------------------------------------------------------------------------------- ------------------------ ----------------------------------------
+TechSolutions                                                                                                               4                                 65000.00
  
