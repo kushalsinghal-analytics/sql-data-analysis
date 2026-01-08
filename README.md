@@ -57,3 +57,13 @@ product_name                                       total_units_sold total_net_pr
 4K Monitor                                                      110            22000
 Gaming Laptop                                                    90            27000
 ```
+
+ ## Project 7: Sales Performance Benchmarking
+Description: "Identified top-performing sales representatives by comparing individual average sales against the company-wide average. Utilized Subqueries within a HAVING clause to create a dynamic benchmark.
+```
+Output:
+
+rep_name                                           rep_average_sale
+-------------------------------------------------- ----------------
+John Doe                                                       6000
+```
